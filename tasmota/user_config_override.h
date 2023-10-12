@@ -1011,7 +1011,7 @@ dBBBBBP     dBP     dBBBBb    dBBBBb     dBBBP      dBBBP     dBBBBb   dBBBBBb  
 //  #define USE_MQTT_TLS_FORCE_EC_CIPHER           // Force Elliptic Curve cipher (higher security) required by some servers (automatically enabled with USE_MQTT_AWS_IOT) (+11.4k code, +0.4k mem)
 //  #define USE_MQTT_AWS_IOT                       // Enable MQTT for AWS IoT - requires a private key (+11.9k code, +0.4k mem)
 
-//#define USE_KNX                                  // Enable KNX IP Protocol Support (+9.4k code, +3k7 mem)
+#define USE_KNX                                  // Enable KNX IP Protocol Support (+9.4k code, +3k7 mem)
 #define USE_WEBSERVER                            // Enable web server and Wifi Manager (+66k code, +8k mem)
   #define USE_JAVASCRIPT_ES6                     // Enable ECMAScript6 syntax using less JavaScript code bytes (fails on IE11)
 #define USE_WEBSEND_RESPONSE                   // Enable command WebSend response message (+1k code)
